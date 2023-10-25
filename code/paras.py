@@ -1,0 +1,10 @@
+MAX_EPOCH = 150
+FPS = 100
+FFT_SIZE = 2048
+NUM_BANDS = 12
+MASK_VALUE = -1
+LEARNING_RATE = 0.001
+CLIP_NORM = 0.5
+DATA_PATH = '/homes/ht156/jukebeat/data'
+TRAIN_DATASET = ['ballroom', 'hainsworth', 'hjdb', 'smc']
+RANDOM_SEED = 2023
