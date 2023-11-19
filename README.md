@@ -4,7 +4,7 @@ Code for paper "Beat and Downbeat Tracking with Generative Embeddings" in Late B
 
 ## Setup
 
-Jukebeat is developed with Python 3.8.2, CUDA 11.2, cuDNN 8.1.0, and FFmpeg 4.2.2.
+Jukebeat is developed with Python 3.8.2, CUDA 11.2, cuDNN 8.1.0, and FFmpeg 4.2.2.  
 It is recommend to create a virtual environment:
 ```
 python -m venv jukebeat
