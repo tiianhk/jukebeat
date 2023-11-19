@@ -15,30 +15,30 @@ data
 └───ballroom
 	└───ballroomData
 		│	ChaChaCha
-			│	...			audio files
-		│	...				other subgenre folders
+			│	...		audio files
+		│	...			other subgenre folders
 	└───ballroomAnnotations
-		│	...				annotation files
+		│	...			annotation files
 └───hainsworth
 	└───hainsworthData
-		│	...				audio files
+		│	...			audio files
 	└───hainsworthAnnotations
-		│	...				annotation files
+		│	...			annotation files
 └───smc
 	└───smcData
-		│	...				audio files
+		│	...			audio files
 	└───smcAnnotations
-		│	...				annotation files
+		│	...			annotation files
 └───hjdb
 	└───hjdbData
-		│	...				audio files
+		│	...			audio files
 	└───hjdbAnnotations
-		│	...				annotation files
+		│	...			annotation files
 └───gtzan
 	└───gtzanData
 		│	blues
-			│	...			audio files
-		│	...				other subgenre folders
+			│	...		audio files
+		│	...			other subgenre folders
 	└───gtzanAnnotations
-		│	...				annotation files
+		│	...			annotation files
 ```
