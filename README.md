@@ -53,3 +53,18 @@ data
 	└───gtzanAnnotations
 		│	...			annotation files
 ```
+And please change the `DATA_PATH` parameter in `code/paras.py`.  
+Then, to compute jukebox embeddings for a dataset (e.g., ballroom):
+```
+python code/generate_jukebox_emb.py --dataset ballroom
+```
+
+## Train
+To train beat and downbeat tracking models:
+```
+python code/main.py --gpu 0 --fold 0 --input_repr audio
+python code/main.py --gpu 0 --fold 0 --input_repr jukebox
+python code/main.py --gpu 0 --fold 0 --input_repr audio --augmentation
+python code/main.py --gpu 0 --fold 0 --input_repr jukebox --augmentation
+```
+The `--gpu` flag allows you to choose the GPU, the `--fold` flag allows you to specify the train/test split in the 8-fold cross validation, the `--input_repr` flag lets you choose the input representation, and adding the `--augmentation` flag implies the utilization of data augmentation.
