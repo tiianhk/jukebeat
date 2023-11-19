@@ -6,7 +6,7 @@ Code for paper "Beat and Downbeat Tracking with Generative Embeddings" in Late B
 
 ## Data
 
-The information for downloading the audio data of Ballroom, Hainsworth, SMC, GTZAN are shared by Jingwei Zhao [here](https://github.com/zhaojw1998/Beat-Transformer#audio-data). The download [link](https://ddmal.music.mcgill.ca/breakscience/dbeat/) for HJDB audio is currently not accessible. The beat and downbeat annotations are released by Sebastian Böck [here](https://github.com/superbock/ISMIR2019).
+To download the audio data of Ballroom, Hainsworth, SMC, and GTZAN, visit [here](https://github.com/zhaojw1998/Beat-Transformer#audio-data). The download [link](https://ddmal.music.mcgill.ca/breakscience/dbeat/) for HJDB audio is currently not accessible. To download the beat and downbeat annotations, visit [here](https://github.com/superbock/ISMIR2019).
 
 To reproduce the experiments, please organize the data as follows:
 
