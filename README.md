@@ -53,7 +53,8 @@ data
 	└───gtzanAnnotations
 		│	...			annotation files
 ```
-Please be reminded to change the `DATA_PATH` parameter in `code/paras.py` to your own path.  
+Please be reminded to change the `DATA_PATH` parameter in `code/paras.py` to your own path.
+
 To compute jukebox embeddings for a dataset (e.g., ballroom):
 ```
 python code/generate_jukebox_emb.py --dataset ballroom
@@ -61,14 +62,10 @@ python code/generate_jukebox_emb.py --dataset ballroom
 The embeddings are stored in the `<dataset_name>JukeboxAvePool` folder under the corresponding dataset directory.
 
 ## Train
-To train beat and downbeat tracking models:
+To train beat and downbeat tracking models for fold 0 (8 folds in total for the 8-fold cross validation):
 ```
 python code/main.py --gpu 0 --fold 0 --input_repr audio
 python code/main.py --gpu 0 --fold 0 --input_repr jukebox
 python code/main.py --gpu 0 --fold 0 --input_repr audio --augmentation
 python code/main.py --gpu 0 --fold 0 --input_repr jukebox --augmentation
 ```
-`--gpu` GPU id  
-`--fold` train/test split id in the 8-fold cross validation  
-`--input_repr` input representation  
-`--augmentation` apply data augmentation or not
