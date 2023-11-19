@@ -1,6 +1,6 @@
 # Jukebeat
 
-Code for paper "Beat and Downbeat Tracking with Generative Embeddings" in Late Breaking Demo in the International Society for Music Information Retrieval Conference, ISMIR, 2023.
+Code for [paper](http://ismir2023program.ismir.net/lbd_363.html) "Beat and Downbeat Tracking with Generative Embeddings" in Late Breaking Demo in the International Society for Music Information Retrieval Conference, ISMIR, 2023.
 
 ## Setup
 
