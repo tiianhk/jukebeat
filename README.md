@@ -6,7 +6,7 @@ Code for paper "Beat and Downbeat Tracking with Generative Embeddings" in Late B
 
 ## Data
 
-The download instructions for the audio data of Ballroom, Hainsworth, SMC, GTZAN are shared by Jingwei Zhao [here](https://github.com/zhaojw1998/Beat-Transformer#audio-data). The download [link](https://ddmal.music.mcgill.ca/breakscience/dbeat/) for HJDB audio is currently not accessible. The beat and downbeat annotations are released by Sebastian Böck [here](https://github.com/superbock/ISMIR2019).
+The information for downloading the audio data of Ballroom, Hainsworth, SMC, GTZAN are shared by Jingwei Zhao [here](https://github.com/zhaojw1998/Beat-Transformer#audio-data). The download [link](https://ddmal.music.mcgill.ca/breakscience/dbeat/) for HJDB audio is currently not accessible. The beat and downbeat annotations are released by Sebastian Böck [here](https://github.com/superbock/ISMIR2019).
 
 To reproduce the experiments, please organize the data as follows:
 
@@ -15,30 +15,30 @@ data
 └───ballroom
 	└───ballroomData
 		│	ChaChaCha
-			│	...					audio files
-		│	...						other subgenre folders
+			│	...			audio files
+		│	...				other subgenre folders
 	└───ballroomAnnotations
-		│	...						annotation files
+		│	...				annotation files
 └───hainsworth
 	└───hainsworthData
-		│	...						audio files
+		│	...				audio files
 	└───hainsworthAnnotations
-		│	...						annotation files
+		│	...				annotation files
 └───smc
 	└───smcData
-		│	...						audio files
+		│	...				audio files
 	└───smcAnnotations
-		│	...						annotation files
+		│	...				annotation files
 └───hjdb
 	└───hjdbData
-		│	...						audio files
+		│	...				audio files
 	└───hjdbAnnotations
-		│	...						annotation files
+		│	...				annotation files
 └───gtzan
 	└───gtzanData
 		│	blues
-			│	...					audio files
-		│	...						other subgenre folders
+			│	...			audio files
+		│	...				other subgenre folders
 	└───gtzanAnnotations
-		│	...						annotation files
+		│	...				annotation files
 ```
