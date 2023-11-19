@@ -69,3 +69,13 @@ python code/main.py --gpu 0 --fold 0 --input_repr jukebox
 python code/main.py --gpu 0 --fold 0 --input_repr audio --augmentation
 python code/main.py --gpu 0 --fold 0 --input_repr jukebox --augmentation
 ```
+
+## BibTex
+```
+@inproceedings{tian2023beat,
+  title = {Beat and Downbeat Tracking with Generative Embeddings},
+  author = {Tian, Haokun and Liu, Kun and Fuentes, Magdalena},
+  booktitle = {Late Breaking Demo of the 24nd International Society for Music Information Retrieval Conference (ISMIR)},
+  year = {2023}
+}
+```
