@@ -5,7 +5,7 @@ Code for [paper](http://ismir2023program.ismir.net/lbd_363.html) "Beat and Downb
 ## Setup
 
 Jukebeat is developed with Python 3.8.2, CUDA 11.2, cuDNN 8.1.0, and FFmpeg 4.2.2.  
-It is recommend to create a virtual environment:
+It is recommended to create a virtual environment:
 ```
 python -m venv jukebeat
 source jukebeat/bin/activate
